@@ -1,3 +1,5 @@
+# Chapter 2: Variables in Python
+
 #  labeled boxes where you keep information.
 #  Here are some examples of variables in Python:
 
@@ -22,19 +24,24 @@ is_student = True
 name = "Bob"     # ✅ Valid
 _name = "Eve"    # ✅ Valid
 
-1name = "Zoe"    # ❌ Invalid (starts with a number)
+# uncommenting the line below will raise a SyntaxError
+# 1name = "Zoe"    # ❌ Invalid (starts with a number)
 
 # Uncommenting the line below will raise a SyntaxError
 # print(1name) 
 
 
 cool2 = "yes"    # ✅ Valid
-2cool = "nope"   # ❌ Invalid
+
+# uncommenting the line below will raise a SyntaxError
+# 2cool = "nope"   # ❌ Invalid
 
 user_name = "Rahul"   # ✅ Good
 username123 = "Mark"  # ✅ Good
-user-name = "Alex"    # ❌ Invalid
-user name = "Lily"    # ❌ Invalid
+
+# Uncommenting the lines below will raise SyntaxErrors
+# user-name = "Alex"    # ❌ Invalid
+# user name = "Lily"    # ❌ Invalid
 
 score = 10
 Score = 20
